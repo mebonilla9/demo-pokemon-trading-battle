@@ -3,3 +3,7 @@ spring:
     name: demo-pokemon-trading-battle
 server:
   port: 8081
+springdoc:
+  swagger-ui:
+    path: /ui-docs.html
+    operations-sorter: method
